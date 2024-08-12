@@ -1,0 +1,136 @@
+/*
+#29F247 green
+#F2AE2E orang
+#F2DABD  bej
+
+*/
+.container {
+  width: 95vw;
+  height: 100vh;
+  background: inherit;
+  position: relative;
+}
+
+.new_box {
+  position: fixed;
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding: 15px;
+  width: 80%;
+  bottom: 5%;
+  left: 10%;
+  background: #fff;
+}
+
+.new_form_btn_img {
+  width: 35px;
+  background: inherit;
+}
+
+.new_form {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input_box {
+  position: relative;
+  width: 100%;
+}
+
+.input_box_title {
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  background: #fff;
+}
+
+.input_box_inp {
+  width: 100%;
+  height: 37px;
+}
+
+.new_form_btn {
+  cursor: pointer;
+  border: none;
+}
+
+.box_close_img {
+  width: 20px;
+  height: 20px;
+}
+
+.boxNodes {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.item_note {
+  position: relative;
+  min-width: 200px;
+  max-width: 400px;
+  min-height: 100px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding: 15px;
+  background: #f2dabd;
+}
+
+.box_close {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #f2ae2e;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: -8px;
+  top: -8px;
+}
+
+.box_close:hover img {
+  scale: 1.2;
+}
+
+.link_rek {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #262626;
+  font-size: 11px;
+  a {
+    color: #262626;
+  }
+}
+
+.main_box {
+  width: 150px;
+  height: 40px;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-radius: 0 0 15px 15px;
+}
+
+.main_update_btn {
+  cursor: pointer;
+}
+
+.main_update_img {
+  background: inherit;
+  width: 15px;
+}
